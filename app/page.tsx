@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
     <main>
-      <h1>Love me gold website</h1>
+      <Hero />
     </main>
   );
 }
