@@ -24,11 +24,11 @@ export function SidebarRoute({
       label: "Gallery",
       active: pathname === `/gallery`,
     },
-    {
-      href: `/contact`,
-      label: "Contact",
-      active: pathname === `/contact`,
-    },
+    // {
+    //   href: `/contact`,
+    //   label: "Contact",
+    //   active: pathname === `/contact`,
+    // },
   ];
 
   return (

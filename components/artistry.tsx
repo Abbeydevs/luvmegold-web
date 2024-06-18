@@ -14,7 +14,7 @@ const Artistry = () => {
       <Image
         src={artistryImage}
         alt="artistry image"
-        className="w-1/2 mx-auto mt-16"
+        className="w-full lg:w-1/2 mx-auto mt-16"
       />
     </div>
   );
