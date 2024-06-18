@@ -13,7 +13,7 @@ const Features = () => {
         emphasizing quality, craftsmanship and unique designs.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:grid-flow-col gap-4 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:grid-flow-col gap-4 mt-10">
         <Image
           className="row-span-3 rounded-lg mx-auto"
           src={image1}

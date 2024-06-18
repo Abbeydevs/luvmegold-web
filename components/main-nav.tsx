@@ -7,7 +7,6 @@ export function MainNav({
   ...props
 }: React.HTMLAttributes<HTMLElement>) {
   const pathname = usePathname();
-  const params = useParams();
 
   const routes = [
     {
@@ -25,17 +24,17 @@ export function MainNav({
       label: "Gallery",
       active: pathname === `/gallery`,
     },
-    {
-      href: `/contact`,
-      label: "Contact",
-      active: pathname === `/contact`,
-    },
+    // {
+    //   href: `/contact`,
+    //   label: "Contact",
+    //   active: pathname === `/contact`,
+    // },
   ];
 
   return (
     <nav
       className={cn(
-        "hidden md:flex items-center space-x-20 lg:space-x-24",
+        "hidden md:flex items-center space-x-20 lg:space-x-16",
         className
       )}
     >
@@ -44,9 +43,9 @@ export function MainNav({
           key={route.href}
           href={route.href}
           className={cn(
-            "text-lg font-medium transition-colors hover:text-primary",
+            "text-lg font-normal transition-colors hover:text-primary",
             route.active
-              ? "text-[#FF8A00] dark:text-white"
+              ? "text-[#FF8A00] dark:text-white font-bold"
               : "text-muted-foreground"
           )}
         >
