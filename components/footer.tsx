@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <p className="text-sm text-muted-foreground">CONTACT US</p>
           <p className="text-sm mt-4">hello@lovemegold.com</p>
-          <p className="text-sm">+1 034 983-22-77</p>
+          <p className="text-sm">+971586202295</p>
         </div>
         <div>
           <p className="text-sm text-muted-foreground">LEGAL INFO</p>
